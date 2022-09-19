@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Geneva', Tahoma, sans-serif; 
+}
+// body {
+//     background-color: rgb(215, 37, 141);
+// }
+
+.body-plot{
+    background-color:rgb(215, 18, 123);
+}
+
+.plot-card {
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+.actor {
+    margin-top: 40px;
+    margin-left: 30%;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 200px;
+    padding: 70px;
+    background-color: rgba(214, 210, 210, 0.886);
+    
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    button {
+        color: white;
+        margin-bottom: 10px;
+        &:hover{
+            color: rgb(229, 14, 154);
+        }
+    }
+
+    img {
+        object-fit: cover;
+        border-radius: 200px;
+        border: 4px solid rgb(16, 142, 210);
+        margin-left: 30px;
+        width: 400px;
+        height: 400px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    h5 {
+       color: rgb(16, 142, 210);
+       font-weight: bold;
+    }
+ 
+}
